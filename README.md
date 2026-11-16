@@ -19,6 +19,4 @@ cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug
 cmake --build build
 ```
 
-The initial CMake project has no build targets or registered tests. Once the first test target is registered, run it with `ctest --test-dir build --output-on-failure`.
-
-If starting with a fresh copy, run `git init` from the project directory.
+I have opted to use WSL2.
